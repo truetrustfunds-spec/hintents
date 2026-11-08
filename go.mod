@@ -1,6 +1,6 @@
 module github.com/dotandev/hintents
 
-go 1.25.0
+go 1.26
 
 require (
 	github.com/atotto/clipboard v0.1.4
@@ -18,7 +18,7 @@ require (
 	github.com/spf13/cobra v1.10.2
 	github.com/stellar/go-stellar-sdk v0.5.0
 	github.com/stretchr/testify v1.12.1
-	go.lsp.dev/jsonrpc2 v0.10.0
+	go.lsp.dev/jsonrpc2 v1.0.1
 	go.lsp.dev/protocol v0.12.0
 	go.opentelemetry.io/otel v1.46.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.46.0
@@ -46,6 +46,7 @@ require (
 	github.com/erikgeiser/coninput v0.0.0-20211004153227-1c3628e74d0f // indirect
 	github.com/go-chi/chi v4.1.2+incompatible // indirect
 	github.com/go-errors/errors v1.5.1 // indirect
+	github.com/go-json-experiment/json v0.0.0-20260601182631-00ed12fed2a6 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/google/uuid v1.6.0 // indirect
